@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miniloura - Your Tiny Treasures Keeper</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Miniloura</span>
+                <div class="logo-sparkle">✨</div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#product" class="nav-link">Product</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="sparkle-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-text">✨ New Arrival</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="brand-name">Miniloura</span>
+                    <div class="title-sparkle">💖</div>
+                </h1>
+                <p class="hero-tagline">Your tiny treasures keeper</p>
+                <div class="hero-product">
+                    <div class="product-showcase">
+                        <div class="product-icon">👜</div>
+                        <h3 class="product-name">Ziplet</h3>
+                        <p class="product-desc">Mini coin purse keychain for your everyday essentials</p>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('product')">
+                    <span class="button-text">Discover Ziplet</span>
+                    <div class="button-sparkle">✨</div>
+                </button>
+            </div>
+            <div class="decorative-beads">
+                <div class="bead bead-1"></div>
+                <div class="bead bead-2"></div>
+                <div class="bead bead-3"></div>
+                <div class="bead bead-4"></div>
+                <div class="bead bead-5"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="sparkle-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Miniloura</h2>
+                <div class="title-decoration">
+                    <div class="decoration-bead"></div>
+                    <div class="decoration-line"></div>
+                    <div class="decoration-bead"></div>
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="about-story">
+                    <div class="story-card">
+                        <div class="story-icon">💕</div>
+                        <h3>Our Story</h3>
+                        <p>Miniloura was born from a love for tiny treasures and the beauty of simplicity. We believe that the smallest things in life often bring the greatest joy.</p>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-icon">🌸</div>
+                        <h3>Style Meets Function</h3>
+                        <p>Our designs blend elegance with practicality, creating accessories that are not just useful, but also beautiful expressions of your personal style.</p>
+                    </div>
+                    <div class="story-card">
+                        <div class="story-icon">✨</div>
+                        <h3>Creativity & Fashion</h3>
+                        <p>We celebrate creativity and fashion-forward thinking, bringing you pieces that make everyday moments feel special and glamorous.</p>
+                    </div>
+                </div>
+                <div class="brand-values">
+                    <div class="value-item">
+                        <div class="value-icon">🎀</div>
+                        <span>Elegance</span>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">💎</div>
+                        <span>Quality</span>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">🌟</div>
+                        <span>Style</span>
+                    </div>
+                    <div class="value-item">
+                        <div class="value-icon">💖</div>
+                        <span>Care</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="product" class="section">
+        <div class="sparkle-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meet Ziplet</h2>
+                <div class="title-decoration">
+                    <div class="decoration-bead"></div>
+                    <div class="decoration-line"></div>
+                    <div class="decoration-bead"></div>
+                </div>
+            </div>
+            <div class="product-showcase">
+                <div class="product-variants">
+                    <div class="product-card">
+                        <div class="product-image minimalist">
+                            <div class="product-placeholder">👜</div>
+                            <div class="product-sparkle">✨</div>
+                        </div>
+                        <h3>Minimalist Ziplet</h3>
+                        <p class="product-description">Clean, simple, and elegant. Perfect for those who love understated beauty.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Sleek design</li>
+                            <li><i class="fas fa-check"></i> Premium materials</li>
+                            <li><i class="fas fa-check"></i> Compact size</li>
+                        </ul>
+                    </div>
+                    <div class="product-card featured">
+                        <div class="product-badge">Popular</div>
+                        <div class="product-image stylish">
+                            <div class="product-placeholder">🎀</div>
+                            <div class="product-sparkle">💖</div>
+                        </div>
+                        <h3>Designer Ziplet</h3>
+                        <p class="product-description">Artistically printed with unique patterns. Make a statement with your style.</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Unique designs</li>
+                            <li><i class="fas fa-check"></i> Vibrant prints</li>
+                            <li><i class="fas fa-check"></i> Eye-catching style</li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <div class="product-image ziplet-pal">
+                            <img src="ziplet_pal.png" alt="Ziplet Pal - Your Tiny Treasure Keeper" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                            <div class="product-sparkle">✨</div>
+                        </div>
+                        <h3>Ziplet Pal</h3>
+                        <p class="product-description">Adorable denim pouch with beaded trim and floral embroidery. Perfect for daily treasures!</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> Snap closure</li>
+                            <li><i class="fas fa-check"></i> Beaded details</li>
+                            <li><i class="fas fa-check"></i> Ultra compact</li>
+                            <li><i class="fas fa-check"></i> Customizable designs</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="product-benefits">
+                    <h3>Everyday Essentials, Beautifully Organized</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">💳</div>
+                            <span>Cards & Coins</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🔑</div>
+                            <span>Keys</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">💄</div>
+                            <span>Lip Balm</span>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">💊</div>
+                            <span>Small Essentials</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="sparkle-bg"></div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="title-decoration">
+                    <div class="decoration-bead"></div>
+                    <div class="decoration-line"></div>
+                    <div class="decoration-bead"></div>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            <div class="input-sparkle">✨</div>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            <div class="input-sparkle">✨</div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                            <div class="input-sparkle">✨</div>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span>Send Message</span>
+                            <div class="button-sparkle">💕</div>
+                        </button>
+                    </form>
+                </div>
+                <div class="social-links">
+                    <h3>Follow Us</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                            <div class="social-sparkle">✨</div>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook"></i>
+                            <div class="social-sparkle">✨</div>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                            <div class="social-sparkle">✨</div>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-pinterest"></i>
+                            <div class="social-sparkle">✨</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
